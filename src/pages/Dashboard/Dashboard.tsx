@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { DashboardWrapper } from "./Dashboard.styles";
-import useRecursion from "../components/hooks/Recursion";
-import Book from "../components/book/Book";
-import BookData from "../components/data/BookData";
+import useRecursion from "../../components/hooks/Recursion";
+import Book from "../../components/book/Book";
+import BookData from "../../components/data/BookData";
 
 const Dashboard = () => {
   const [bookData, setBookData] = useState(BookData);
