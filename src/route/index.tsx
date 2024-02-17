@@ -7,7 +7,7 @@ const NotFound = () => {
 
 const routes = [
   {
-    path: "/dashboard",
+    path: "/",
     element: <Dashboard />,
   },
   {
